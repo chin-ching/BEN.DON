@@ -1,0 +1,46 @@
+<head>
+    <style type="text/css">
+        #DIV1{
+        width:200px;
+        line-height:50px;
+        padding:20px;
+        border:2px red solid;
+        float:left;
+        }
+        #DIV2{
+        width:200px;
+        line-height:50px;
+        padding:20px;
+        border:2px green solid;
+        float:left;
+        }
+    </style>
+    <boby>
+        <div class="row" style="border:2px red solid;">紅色的實線邊框</div>
+        <div class="row" style="border:3px orange solid;">第一行
+            <div class="col-5">最新消息</div>
+            <div class="col-7">服務項目</div>            
+        </div>
+
+        <div class="row" style="border:2px red solid;">  Header  </div>
+            <div class="row"> 
+                <div class="col-5"> 最新消息 </div>     
+                <div class="col-7"> 
+                    <div class="row" style="border:2px red solid;"> 服務項目	
+                        <div id="DIV1">
+                            <div class="col-4"> 左 </div>
+                        </div>                        
+                        <div class="col-4"> 中 </div>
+                        <div class="col-4"> 右 </div>    
+                    </div>
+                    <div class="row"> 服務據點 </div>
+                </div>
+            </div>
+            
+                <div id="DIV1">這是並排在左邊的 DIV 區塊</div>
+                <div id="DIV2">這是並排在右邊的 DIV 區塊</div>
+                <div style="clear:both;"></div><!--這是用來清除上方的浮動效果-->
+
+
+    </boby>
+</head>
